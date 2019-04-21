@@ -10,7 +10,7 @@ header {
     width: 20%;
     float: left; 
     text-align: center;
-    margin-left: 250px; 
+    margin-left: 362px; 
     margin-right: 22%;
  }
 
@@ -21,7 +21,7 @@ a {
     text-decoration: none;
     float: left;
     text-align: center; 
-    padding: 20px 20px;
+    padding: 20px 26px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,8 +44,7 @@ nav {
 }
 
 body {
-    z-index: 1000;
-    z-index: -1000;
+    margin: 0;
     height: 650px;
     background-image: url("/Users/keenanmapp/Documents/Basic-Portfolio/assets/images/dust_scratches.png")
 }
@@ -164,5 +163,15 @@ textarea {
     height: 150px;
     width: 210px;
     margin-bottom: 35px;
-    margin-right: 12px;
+    margin-right: 20px;
+}
+.relative {
+    position: relative;
+    text-align: center;
+}
+
+.abs-text {
+    position: absolute;
+    bottom: 58%;
+    left: 50%;
 }
